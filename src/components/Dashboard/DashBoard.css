@@ -180,11 +180,11 @@ font-size: 17px;
 
   .sidebar{
     background-color: #fff;
-    width:50vw ;
+    width:440px ;
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 10px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     padding-bottom:30px ;
     position: absolute;
-    top: 0;
+    top: 60px;
     right: 0;
   }
   .heading{

@@ -208,7 +208,7 @@ color: #0E6656;
     top: 0;
     right: -100%;
     transition: 850ms;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
   }
   
   .nav-menu.active {
@@ -289,7 +289,7 @@ color: #0E6656;
   }
   
   .navbar-toggle {
-    background-color: #060b26;
+    background-color: #f5f6ff;
     width: 100%;
     height: 80px;
     display: flex;

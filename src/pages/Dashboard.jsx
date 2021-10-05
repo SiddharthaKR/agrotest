@@ -15,12 +15,10 @@ import { DashScheduldeSidebar } from "../components/Dashboard/DashScheduldeSideb
 
 function Dashboard(props) {
   const [sidebar, setSidebar] = useState(false);
-
   const showSidebar = () => setSidebar(!sidebar);
 
 
   const [streakSidebar, setStreakSidebar] = useState(false);
-
   const showStreakSidebar = () => setStreakSidebar(!streakSidebar);
 
 
@@ -106,9 +104,18 @@ function Dashboard(props) {
         </ul>
       </nav>
       <nav className={streakSidebar ? 'nav-menu active' : 'nav-menu'}>
+      <div>
+        <ul className='nav-menu-items'>
+          <li className='navbar-toggle'>
+            <Link to='#' className='menu-bars'>
+              <AiIcons.AiOutlineClose onClick={showStreakSidebar} />
+            </Link>
+          </li>
+          </ul>
+          </div>
+          <DashStreakSidebar />
         
-        <DashStreakSidebar />
-
+      
       </nav>
     </div>
 
